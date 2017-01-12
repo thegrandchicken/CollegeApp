@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="WELCOME"
+        android:text="@string/welcome"
         android:id="@+id/textView_splash"
         android:textColor="@color/abc_primary_text_material_dark"
         android:textStyle="bold"
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView_logo"
         android:src="@drawable/logo"
-        android:layout_alignBottom="@+id/textView_splash"
+        android:layout_above="@+id/textView_loading"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
