@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.csaper6.collegeapp">
+    package="com.example.ysmak.collegeapp">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -17,15 +17,28 @@
             android:name=".Presenter.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Presenter.LoginActivity" />
-        <activity android:name=".Presenter.SplashScreenActivity">
+
+        <activity android:name=".Presenter.LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Presenter.SplashScreenActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Presenter.CreateAccountActivity"></activity>
+
+        <activity android:name=".Presenter.CreateAccountActivity"
+            android:parentActivityName=".Presenter.LoginActivity"
+            android:screenOrientation="portrait" >
+            <!-- for older backwards compatibility -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Presenter.LoginActivity" />
+        </activity>
+
     </application>
 
 </manifest>

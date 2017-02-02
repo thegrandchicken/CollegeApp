@@ -1,4 +1,4 @@
-package com.example.csaper6.collegeapp.Model;
+package com.example.ysmak.collegeapp.Model;
 
 /**
  * Created by csaper6 on 12/13/16.
@@ -34,11 +34,7 @@ public class Guardian {
 
     public int getAge() { return age; }
 
-    public int setAge() { this.age = age; }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+    public void setAge() { this.age = age; }
 
     public Guardian(String lastName, String firstName) {
         this.lastName = lastName;

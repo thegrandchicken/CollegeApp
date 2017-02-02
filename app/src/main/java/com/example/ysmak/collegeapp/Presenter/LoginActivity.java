@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
 
         //TODO: remove secret key before Github
         Backendless.initApp(this, "2EE6BCB6-1C79-C7EA-FF53-D88FFEAA3A00",
-                secretKey, "v1"); // where to get the argument values for this call
+                "C439AA6A-4011-5E2C-FF7D-3F9153D05200", "v1"); // where to get the argument values for this call
 
         cna.setOnClickListener(new View.OnClickListener() {
             @Override

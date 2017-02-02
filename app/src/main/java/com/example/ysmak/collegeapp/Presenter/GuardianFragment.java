@@ -1,4 +1,4 @@
-package com.example.csaper6.collegeapp.Presenter;
+package com.example.ysmak.collegeapp.Presenter;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
-import com.example.csaper6.collegeapp.Model.Guardian;
-import com.example.csaper6.collegeapp.R;
+import com.example.ysmak.collegeapp.Model.Guardian;
+import com.example.ysmak.collegeapp.R;
 
 /**
  * Created by csaper6 on 12/9/16.

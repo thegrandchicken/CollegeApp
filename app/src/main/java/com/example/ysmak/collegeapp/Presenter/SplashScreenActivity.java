@@ -1,4 +1,4 @@
-package com.example.csaper6.collegeapp.Presenter;
+package com.example.ysmak.collegeapp.Presenter;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.csaper6.collegeapp.R;
+import com.example.ysmak.collegeapp.R;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -18,7 +18,6 @@ public class SplashScreenActivity extends AppCompatActivity {
 
         TextView splashText = (TextView) (findViewById(R.id.textView_splash));
         final TextView loadingText = (TextView) (findViewById(R.id.textView_loading));
-        ImageView logo = (ImageView) findViewById(R.id.imageView_logo);
 
         CountDownTimer countdown = new CountDownTimer(3000, 1000) {
             @Override

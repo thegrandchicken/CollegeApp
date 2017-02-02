@@ -1,4 +1,4 @@
-package com.example.csaper6.collegeapp.Presenter;
+package com.example.ysmak.collegeapp.Presenter;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -13,7 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.csaper6.collegeapp.R;
+import com.example.ysmak.collegeapp.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

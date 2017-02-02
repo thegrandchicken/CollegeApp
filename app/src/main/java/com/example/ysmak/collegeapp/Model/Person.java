@@ -1,4 +1,4 @@
-package com.example.csaper6.collegeapp.Model;
+package com.example.ysmak.collegeapp.Model;
 
 /**
  * Created by csaper6 on 12/9/16.

@@ -13,8 +13,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.example.csaper6.collegeapp.Presenter.GuardianFragment;
-import com.example.csaper6.collegeapp.R;
+import com.example.ysmak.collegeapp.Presenter.GuardianFragment;
+import com.example.ysmak.collegeapp.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

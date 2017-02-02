@@ -1,4 +1,4 @@
-package com.example.csaper6.collegeapp;
+package com.example.ysmak.collegeapp;
 
 import org.junit.Test;
 
